@@ -23,25 +23,17 @@ function Login() {
   }
 
   return (
-    <div className="bg-emerald-500 min-h-screen flex flex-col items-center justify-center">
-      <div className="p-20 bg-black rounded-3xl">
+    <div className="bg-zinc-800 min-h-screen flex flex-col items-center justify-center">
+      <div className="p-10 bg-black rounded-2xl">
         <div className=" bg-orange  flex flex-col items-center">
-          <div className="bg-emerald-600 flex items-center  justify-center min-w-full mb-10 rounded-3xl p-3">
-            <img
-              src="https://www.svgrepo.com/show/44891/wallet.svg"
-              alt="wallet"
-              width="150px"
-              className="w-20 border rounded-3xl p-1 "
-            />
-            <h2 className="p-10 font-bold"> Trybe-Wallet !</h2>
-          </div>
+          <h2 className="font-bold text-white text-3xl mb-4"> TrybeWallet !</h2>
 
           <form className="bg-black min-w-full text-white p-3 border rounded font-bold">
             <label htmlFor="email">
               {" "}
               Email:
               <input
-                className="block w-full mb-2"
+                className="block shadow appearance-none border rounded  py-1 px-1 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 name="setEmail"
                 id="email"
                 data-testid="email-input"
@@ -54,7 +46,7 @@ function Login() {
             <label htmlFor="senha">
               Password:
               <input
-                className="block w-full mb-5"
+                className="block shadow appearance-none border rounded  py-1 px-1 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-5"
                 name="password"
                 id="senha"
                 data-testid="password-input"
