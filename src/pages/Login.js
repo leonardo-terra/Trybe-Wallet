@@ -24,7 +24,7 @@ function Login() {
 
   return (
     <div className="bg-zinc-800 min-h-screen flex flex-col items-center justify-center">
-      <div className="p-10 bg-black rounded-2xl">
+      <div className="p-10 bg-black rounded-2xl ">
         <div className=" bg-orange  flex flex-col items-center">
           <h2 className="font-bold text-white text-3xl mb-4"> TrybeWallet !</h2>
 

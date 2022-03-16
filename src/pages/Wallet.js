@@ -50,16 +50,16 @@ function Wallet() {
   return (
     <>
       <Header />
-      <div className="form-container">
-        <form className="form">
+      <div className="flex justify-between bg-black text-white p-2 text-l font-bold ">
+        <form className="">
           <label htmlFor="valor">
             Valor:
             <input
+              className=" w-7 shadow appearance-none border mr-2 ml-2 rounded h-5 align-middle text-black font-bold leading-tight focus:outline-none focus:shadow-outline"
               onChange={(event) => setValue(event.target.value)}
               value={value}
               type="number"
               placeholder="VALOR"
-              data-testid="value-input"
               id="valor"
             />
           </label>
@@ -67,11 +67,11 @@ function Wallet() {
           <label htmlFor="descricao">
             Descrição:
             <input
+              className=" w-13 shadow appearance-none border mr-2 ml-2 rounded h-5 align-middle  text-black font-bold leading-tight focus:outline-none focus:shadow-outline"
               onChange={(event) => setDescription(event.target.value)}
               value={description}
               type="text"
               placeholder="DESCRIÇÃO"
-              data-testid="description-input"
               id="descricao"
             />
           </label>
@@ -79,8 +79,8 @@ function Wallet() {
           <label htmlFor="currency">
             Moeda:
             <select
+              className=" w-15 shadow appearance-none border mr-2 ml-2 rounded h-5 align-middle  text-black leading-tight focus:outline-none focus:shadow-outline"
               id="currency"
-              data-testid="currency-input"
               value={curr}
               onChange={(e) => setCurr(e.target.value)}
             >
@@ -95,8 +95,8 @@ function Wallet() {
           <label htmlFor="methodOfPayment">
             Método de Pagamento:
             <select
+              className=" w-13 shadow appearance-none border mr-2 ml-2 rounded h-5 align-middle  text-black leading-tight focus:outline-none focus:shadow-outline"
               id="methodOfPayment"
-              data-testid="method-input"
               value={method}
               onChange={(e) => setMethod(e.target.value)}
             >
@@ -111,8 +111,8 @@ function Wallet() {
           <label htmlFor="expenseType">
             Tipo de Despesa:
             <select
+              className=" w-15 shadow appearance-none border mr-2 ml-2 rounded h-5 align-middle  text-black leading-tight focus:outline-none focus:shadow-outline"
               id="expenseType"
-              data-testid="tag-input"
               value={tagType}
               onChange={(e) => setTagType(e.target.value)}
             >
@@ -123,8 +123,12 @@ function Wallet() {
               ))}
             </select>
           </label>
-          <button type="button" onClick={expenseDispatch}>
-            Adicionar despesa
+          <button
+            type="button"
+            className="border w-7"
+            onClick={expenseDispatch}
+          >
+            +
           </button>
         </form>
       </div>
