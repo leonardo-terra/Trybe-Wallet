@@ -13,9 +13,9 @@ Neste projeto, verificamos se voce é capaz de:
 
 # Entregáveis
 
-## O que deverá ser desenvolvido
+## O foi desenvolvido
 
-Neste projeto você vai desenvolver uma carteira de controle de gastos com conversor de moedas, ao utilizar essa aplicação um usuário deverá ser capaz de:
+Neste projeto foi desenvolvido uma carteira de controle de gastos com conversor de moedas, ao utilizar essa aplicação um usuário deverá ser capaz de:
 
 - Adicionar, remover e editar um gasto;
 - Visualizar uma tabelas com seus gastos;
