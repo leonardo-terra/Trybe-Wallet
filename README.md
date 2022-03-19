@@ -1,5 +1,9 @@
 # Boas vindas ao repositório do projeto Trybe Wallet ![rocket](https://github.githubassets.com/images/icons/emoji/unicode/1f680.png)
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/89673361/159125435-8253bf22-043d-4db2-80ee-8c4ac68c5fdd.gif" alt="TrybeWallet GIF"/>
+</p>
+
 # Habilidades
 
 Neste projeto, verificamos se voce é capaz de:
